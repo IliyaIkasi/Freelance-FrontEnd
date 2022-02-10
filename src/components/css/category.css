@@ -1,0 +1,43 @@
+:root {
+	/* fallback for old browsers */
+	--oldBrowser: -webkit-linear-gradient(to right, #c06c84, #6c5b7b, #355c7d);
+	/* Chrome 10-25, Safari 5.1-6 */
+	--background: linear-gradient(to right, #c06c84, #6c5b7b, #355c7d);
+}
+
+.job-category {
+	width: 20%;
+	height: 30vh;
+	margin: 20px 10px;
+	border-radius: 20px 20px 0 0;
+	overflow: hidden;
+	border-bottom: 1px solid #355c7d;
+}
+
+.job-category:hover {
+	box-shadow: -3px 3px 10px #355c7d, 3px -3px 10px #c06c84;
+	color: crimson;
+}
+
+.job-category .job-category-header {
+	height: 10px;
+	background-color: #355c7d;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	box-shadow: -3px 3px 10px #355c7d, 3px -3px 10px #c06c84;
+	margin-bottom: 2rem;
+}
+
+.job-category .job-category-header .dots {
+	height: 5px;
+	width: 5px;
+	border-radius: 50%;
+	margin: 3px;
+	background-color: white;
+}
+
+.job-category .iterate-job {
+	justify-content: center;
+	text-align: center;
+}

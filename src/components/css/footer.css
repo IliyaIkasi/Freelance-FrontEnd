@@ -1,0 +1,88 @@
+.footer-container {
+	background-color: #141d27;
+	color: white;
+	height: auto;
+	width: auto;
+}
+
+.footer-container .footer-header {
+	display: flex;
+}
+
+.footer-header .footer-box {
+	width: 30%;
+	height: auto;
+	text-align: center;
+	margin: 5rem 2rem;
+	text-align: start;
+	font-weight: 100;
+}
+
+.footer-header .footer-box .footer-title p {
+	font-size: 20px;
+}
+
+.footer-header .footer-box .footer-title p,
+.footer-header .footer-box .footer-title .footer-text {
+	padding-top: 1rem;
+	list-style: none;
+	color: gray;
+}
+
+.footer-header .footer-box .footer-title .footer-text li {
+	padding-top: 20px;
+}
+
+.footer-header .footer-box .footer-title .footer-text a {
+	color: grey;
+	text-decoration-line: none;
+}
+.footer-header .footer-box .footer-title .footer-text a:hover {
+	color: crimson;
+	padding-left: 10px;
+}
+
+.footer-header .footer-box .footer-title .footer-text-input input {
+	border: none;
+	outline: none;
+	font-size: 15px;
+}
+
+.footer-header .footer-box .footer-title .footer-text-input .input-text {
+	height: 2.5rem;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.footer-header .footer-box .footer-title .footer-text-input .input-btn {
+	background-color: crimson;
+	color: white;
+	height: 2.5rem;
+	border: none;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.footer-bottom {
+	display: flex;
+	width: auto;
+	padding: 0 2rem 2rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-bottom .footer-bottom-icons {
+	display: flex;
+	margin-left: 50rem;
+}
+
+.footer-bottom .footer-bottom-icons a {
+	width: 2rem;
+	font-size: 2rem;
+	cursor: pointer;
+	color: white;
+}
+
+.footer-bottom .footer-bottom-icons a:hover {
+	color: crimson;
+}
